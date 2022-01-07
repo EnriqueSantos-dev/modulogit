@@ -76,8 +76,10 @@ file.extensão
 
 
 -------- 			Git revert 			---------
+basicamante voltar faz um commit que volta o meu código para a versão antes daquele commit
 
-
+comando:
+git revert --no-edit  id do commit
 
 
 
@@ -96,3 +98,23 @@ git branch -D (nome da branch)
 --------- 	Git pull 	----------
 
 git pull origin main (nome da branch que quer colocar)
+
+
+---------    Git clone   ---------
+
+Eu posso clonar um repositório porém não posso fazer push 
+
+ comando 
+ git clone  url do github
+
+
+
+---------- Fork   --------
+
+eu posso usar o fork em algum projeto e aí eu posso fazer qualquer alteração pq o projeto vai ter meu ssh do github
+
+usa o mesmo comando do git clone
+Depois de fazer o fork
+
+
+usa-se o pull-request (no github) para mandar os seus ajustes para o dono do repositório
