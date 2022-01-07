@@ -95,3 +95,4 @@ git branch -D (nome da branch)
 
 --------- 	Git pull 	----------
 
+git pull origin main (nome da branch que quer colocar)
