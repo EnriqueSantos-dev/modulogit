@@ -1,0 +1,55 @@
+-------- Curso de Git comandos --------
+
+git add -A                		adiciona todos os arquivos de uma vez
+git add file              		adiciona um por vez
+git commit -m string     		coloca o commit na fila
+git commit -am string    		adiciona os arquivos e também já faz o commit 
+git branch 				ver a branch atual
+ls 					é possível ver todos os arquivos da pasta
+cd c:/ or e:/				vai para o diretório raíz do sistema 
+git log 				pegar todos os dados , como commits que foram feitos
+git reset --hard 			volta para última versão do código e apapa todos os outros commits
+git reset --mixed			volta para versão escolhida , porém os arquivos ficam lá, no entanto tem que adciona-los novamente e fazer o commit também
+git reste --soft 			volta para a versão escolhidas , porém deixa o commit anterior pronto só para fazer o commit --- Essa é a mais indicada para trabalho em equipe
+git branch (nome da brabch)		cria uma nova branch com o histórico da branch atual
+git checkout (nome da brabch)		muda de branch
+git diff 				ver exatamente as alterações feitas no arquivo (tem que ser antes do commit)
+git diff --name-only 			mostra somente o nome dos arquivos modificados		
+git diff file 				mostra somente o que foi alterado nesse arquivo
+git checkout HEAD --file 		exclui as alterações feitas nesse arquivo deixando ele no seu estado anterior 
+q					sair do ~(End) no terminal 
+
+
+
+
+------- Github repositórios ------
+
+1 - Primeiramente para configurar o git para poder ser possível usar os reposítorios tem que pegar a chave ssh
+
+-------- Nesse caso é como se estivesse criando um repositório novo no github --------
+
+echo "# modulogit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/EnriqueSantos-dev/modulogit.git
+git push -u origin main
+
+
+-------	Nesse outro é o caso que o repositório já existe --------
+
+git remote add origin https://github.com/EnriqueSantos-dev/modulogit.git
+git branch -M main
+git push -u origin main
+
+comando git remote         		ver se tem já consta o repositório lá
+
+		--------	obs: 	---------
+comando git remote -v
+
+origin  https://github.com/EnriqueSantos-dev/modulogit.git (fetch)
+Fetch --- buscar as alterações que estão no meu repositório remoto (GitHub)
+
+origin  https://github.com/EnriqueSantos-dev/modulogit.git (push)
+Push --- Mandar arquivos da minha máquina local para o repositório remoto
