@@ -58,3 +58,17 @@ comando de push
 
 git remote add origin (url)	liga com o repositório remoto e dá o nome de origin
 git push origin branch    	(nome da branch) atualiza os arquivos no repositório remoto 
+
+
+
+
+-------				Git ignore 				----------
+
+Pode criar um arquivo com o nome .gitignore ou colocar na criação do repositóriono github
+
+
+formas de ignorar 
+
+file.extensão
+
+*.extensão
