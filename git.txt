@@ -13,6 +13,7 @@ git reset --mixed			volta para versão escolhida , porém os arquivos ficam lá,
 git reste --soft 			volta para a versão escolhidas , porém deixa o commit anterior pronto só para fazer o commit --- Essa é a mais indicada para trabalho em equipe
 git branch (nome da brabch)		cria uma nova branch com o histórico da branch atual
 git checkout (nome da brabch)		muda de branch
+git checkout --file				volta o arquivo para o estado anterior a alteração
 git diff 				ver exatamente as alterações feitas no arquivo (tem que ser antes do commit)
 git diff --name-only 			mostra somente o nome dos arquivos modificados		
 git diff file 				mostra somente o que foi alterado nesse arquivo
