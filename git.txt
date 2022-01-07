@@ -77,3 +77,21 @@ file.extensão
 
 -------- 			Git revert 			---------
 
+
+
+
+
+-------- Excluindo branchs no repositório remoto ou local --------
+remoto (GitHub):
+
+git push origin :(nome da branch)
+
+Local:
+
+para deletar uma branch local tem que sair dela com o checkout
+git branch -D (nome da branch)
+
+
+
+--------- 	Git pull 	----------
+
