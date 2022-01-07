@@ -53,3 +53,8 @@ Fetch --- buscar as alterações que estão no meu repositório remoto (GitHub)
 
 origin  https://github.com/EnriqueSantos-dev/modulogit.git (push)
 Push --- Mandar arquivos da minha máquina local para o repositório remoto
+
+comando de push
+
+git remote add origin (url)	liga com o repositório remoto e dá o nome de origin
+git push origin branch    	(nome da branch) atualiza os arquivos no repositório remoto 
